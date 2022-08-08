@@ -43,7 +43,6 @@ function App() {
               `There was an error with status code ${res.status}`
             );
           }
-          console.log(res.json());
           return res.json();
         });
         setGetApiKey(getData.weather);
