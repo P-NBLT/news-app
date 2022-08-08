@@ -56,7 +56,7 @@ function App() {
     }
     fetchTodo();
   }, []);
-
+  console.log(getApiKey);
   const handleClick = (value) => {
     setCategory(value.toLowerCase());
   };
