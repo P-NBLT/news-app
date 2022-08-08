@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 
 const Search = ({ keyword, endpoint, apiKey, retrieveData }) => {
   const [data, setData] = useState([]);
-  console.log("keyword is ", keyword);
+
   useEffect(() => {
     const fetchData = async () => {
       if (keyword) {
         const searchData = await fetch(
           `${endpoint}q=${keyword}&apiKey=${apiKey}`
         );
-
+        console.log(searchData);
         const findData = await searchData.json();
         setData(findData.articles.filter((el) => el.content !== null));
         retrieveData(findData.articles.filter((el) => el.content !== null));
