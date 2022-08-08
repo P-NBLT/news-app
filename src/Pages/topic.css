@@ -1,0 +1,48 @@
+.aticlesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1%;
+  row-gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* .part1 {
+  display: block;
+} */
+
+.articleGeneral {
+  height: 400px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.description {
+  padding-top: 10px;
+}
+
+.articleGeneral::-webkit-scrollbar {
+  width: 5px;
+}
+
+.articleGeneral::-webkit-scrollbar-track {
+  background: transparent;
+}
+.articleGeneral::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-right: none;
+  border-left: none;
+  border-radius: 15px;
+}
+
+.articleGeneral::-webkit-scrollbar-track-piece:end {
+  background: transparent;
+  margin-bottom: 15px;
+}
+
+.articleGeneral::-webkit-scrollbar-track-piece:start {
+  background: transparent;
+  margin-top: 15px;
+}

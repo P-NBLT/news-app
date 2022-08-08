@@ -1,0 +1,32 @@
+.NavBar.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 75%;
+  text-decoration: underline;
+  background-color: brown;
+  height: 40px;
+  min-width: 90%;
+}
+
+.NavBar p {
+  font-size: 20px;
+  font-weight: 450;
+}
+
+.NavBar .break {
+  height: 22px;
+  width: 1px;
+  border-left: 2px solid white;
+}
+
+.navlink {
+  color: white;
+  text-decoration: solid;
+}
+
+.NavBar .active {
+  color: black;
+  text-decoration: dotted;
+}

@@ -1,0 +1,40 @@
+.aticlesContainer {
+  margin-right: 15px;
+}
+
+.articleGeneral {
+  width: 350px;
+  border: 2px solid brown;
+  border-radius: 20px;
+
+  box-shadow: 2px 2px 10px grey;
+  text-align: left;
+}
+
+.Link {
+  text-decoration: none;
+}
+
+.image,
+.title,
+.description,
+.name {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #27647d;
+}
+
+.title {
+  text-decoration: underline;
+}
+
+.image {
+  margin-top: 3px;
+  width: 150px;
+  height: 80px;
+  border-top-left-radius: 10px;
+}
+
+.name {
+  margin-bottom: 5px;
+}
