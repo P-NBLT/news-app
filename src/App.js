@@ -56,6 +56,7 @@ function App() {
     fetchTodo();
   }, []);
   console.log(getApiKey);
+  console.log("lat is", lat);
   const handleClick = (value) => {
     setCategory(value.toLowerCase());
   };
